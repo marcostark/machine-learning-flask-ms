@@ -2,6 +2,9 @@
 
 Flask template for machine learning project microservice
 
+- Create container
+    `docker-compose up -d`
+
 - Testing
     `curl -X POST -H "Content-Type: application/json" \
      -d '{"text": "Text Here"}' \
